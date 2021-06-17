@@ -1,0 +1,330 @@
+body {
+    background-color: #1d1f1d; 
+    max-width: 1920px;
+    height:
+}
+
+
+
+.generale{
+    overflow-y: visible;
+    position: center;
+    width:100%;
+    height: 100% ;
+    background-color: #1d1f1d;
+    max-width: 100%;
+   
+    
+    font-family: 'Archivo', sans-serif;
+    color: #f0f0ef;
+    overflow-y: scroll;
+    
+}
+
+.ass{
+    font-family: 'Archivo', sans-serif;
+    color: #1d1f1d;
+    background-color: #e0c6dd;
+    
+    
+}
+
+/*.contenuto{
+    padding-bottom: 200px;
+}*/
+
+.testa{
+    width:100%;
+    position: fixed;
+    background-color:#1d1f1d; 
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    z-index: 9999;
+}
+
+.menu{
+    padding-right:5%;
+    padding-left: 5%;
+}
+
+.logo{
+    width:50px;
+}
+
+a { text-decoration: none; font-weight: bold; color: #f0f0ef; } 
+
+.menu:hover{
+ color: #e0c6dd;   
+}
+.testamenu { text-decoration: none; font-weight: bold; color: #f0f0ef; padding:2%; } a:hover { color: #f0f0ef; 
+    
+}
+
+
+.container_logo{
+    margin-top: 50px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.png{
+    width: 60vw;}
+
+
+.png2{
+    
+    height:100px;
+    width: 180px;
+}
+
+.descrizione{
+    margin-top: 15px;
+    color:#1d1f1d;
+    font-size:16px;
+    text-align: left;
+}
+
+.doc {
+    color:#1d1f1d;
+    font-size:14px;
+    padding:20%;
+    text-align: left;
+}
+
+h1, h2, h3, h4 { font:40px/1.2rem 'Archivo'; line-height: 1.5; margin: 0px;}
+
+h5 {font:19 'Archivo'; line-height: 1.5; margin: 0px;} 
+
+
+.number{
+  margin: 0;
+  width:1vw;
+  margin-right: 15%;
+}
+
+.artist{
+  margin: 0;
+  width:45vw;
+  margin-right: 10%;
+}
+
+.project_type{
+  margin: 0;
+  width:15vw
+
+}
+
+
+
+
+.project-content{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text_project{
+  color: #1d1f1d;
+  width: 50%;
+}
+
+.data_project{
+  margin-top: 200px;
+}
+
+
+.play_project{
+  color: #1d1f1d;
+  width: 25vw; 
+  padding-left: 12vw;
+}
+
+
+
+.accordion-container .accordion-title {
+  position: relative;
+  margin: 0;
+  padding: 0em 0em 0em 0.625em;
+  background-color: #1d1f1d;
+  font-size: 1.25em;
+  font-weight: normal;
+  color: #f0f0ef;
+  cursor: pointer;
+  border-top: 4px solid #f0f0ef;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.accordion-container .accordion-title:hover,
+.accordion-container .accordion-title:active,
+.accordion-title.open {
+  background-color: #1d1f1d;
+}
+
+.accordion-container .accordion-title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  width: 15px;
+  height: 2px;
+  transform: rotate(90deg);
+  background:  #f0f0ef;
+  color: #f0f0ef;
+  border: 1px solid #f0f0ef;
+  transition: all .3s ease-in-out;
+}
+
+.accordion-container .accordion-title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  width: 15px;
+  height: 2px;
+  background:  #f0f0ef;
+  border: 1px solid #f0f0ef;
+  transition: all .2s ease-in-out;
+}
+
+.accordion-container .accordion-title.open::before {
+  transform: rotate(180deg);
+}
+
+.accordion-container .accordion-title.open::after {
+  opacity: 0;
+}
+
+.accordion-content {
+  background: #E3C6E0;
+  padding-left: 2.3125em;
+}
+
+/* CSS for Demo */
+.accordion-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.settantadue_foot{
+    color:  #1d1f1d;
+    font-size: 90px;
+}
+
+
+.container_footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f0f0ef;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_contact{
+  justify-content: center;  
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_foot{
+    color: #E3C6E0;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.contact_foot:hover{
+    color: #1d1f1d;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    h1, h2, h3, h4, h5 { font:22px/1.2rem 'Archivo'; line-height: 1.5; margin: 0px;}
+    
+    .testa{
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .container_logo{
+        padding-top: 40%;
+        padding-bottom: 40%;
+    }
+    .logo{
+    width:40px;
+    }    
+    .number{
+    margin-right: 13%;
+    }
+    
+    .artist{
+    width:85vw;
+    margin-right: 10%;
+    font-size: 30px;
+    }
+
+    .project_type{
+    margin: 0;
+    width:95vw
+
+    }
+    
+    .project-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    }
+
+    .accordion-container .accordion-title{
+    flex-direction: column;    
+    } 
+    
+    .accordion-content {
+    background: #E3C6E0;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    }
+    
+    .text_project{
+    color: #1d1f1d;
+    width: 90vw;
+    }
+
+    .data_project{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+
+    .play_project{
+    color: #1d1f1d;
+    width: 90vw;
+    padding-left: 0;
+    }
+    
+    .settantadue_foot{
+      font-size: 3rem;
+    }
+    
+    .container_contact{
+      flex-direction: column;
+    }
+    
+    .contact_foot{
+        margin-top: 15px;
+    }
+}
+
